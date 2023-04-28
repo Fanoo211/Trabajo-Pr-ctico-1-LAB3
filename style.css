@@ -13,10 +13,6 @@ background-color: ghostwhite;
     background-color: antiquewhite;
    
 }
-.buttonseguir{
-    margin-top: 250px;
-    width: 90%;
-}
 .imgPaisaje{
     width: 100%;
     border-radius: 3%;
@@ -48,5 +44,18 @@ background-color: ghostwhite;
     border-radius: 50%;
     padding: 4px;
 }
+.perfil-info {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.buttonseguir {
+    margin-top: 20px;
+    align-self: flex-end;
+    width: 90%;
+}
+
 
 
