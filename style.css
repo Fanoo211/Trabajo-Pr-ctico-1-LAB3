@@ -12,8 +12,12 @@
 }
 .imgPaisaje{
     width: 100%;
-    
+    border-radius: 3%;
 }
 .btnMegusta{
     margin-top: 5px;
+}
+.nombresEnColor{
+    color: blue;
+    font-size: 20px;
 }
