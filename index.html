@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <a class="navbar-brand"><img src="globo.png" alt="LogoGlobo" style="width: 70%;"></a>
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Ingrese su usuario" aria-label="Search">
+                <input class="form-control me-2" id="nombre-usuario" type="search" placeholder="Ingrese su usuario" aria-label="Search">
                 <button class="btn btn-outline-danger" type="submit">enter</button>
             </form>
         </div>
@@ -60,22 +60,22 @@
             <!--SECCION DE COMENTARIOS-->
             <br><br>
             <h5>Comentarios</h5>
-            <p><b class="nombresEnColor">Juan Perez</b> wow esa foto de tokio es impresionante!</p>
-            <p><b class="nombresEnColor">Kathleen J Rennie</b> esta foto de tokio es espectacular!</p>
-            <p><b class="nombresEnColor">Diana Bell</b> espero que algun dia pueda ver Tokio en persona!</p>
+            <p><b id="nombresEnColor">Juan Perez</b> wow esa foto de tokio es impresionante!</p>
+            <p><b id="nombresEnColor">Kathleen J Rennie</b> esta foto de tokio es espectacular!</p>
+            <p><b id="nombresEnColor">Diana Bell</b> espero que algun dia pueda ver Tokio en persona!</p>
 
             <!--PARA AGREGAR LOS COMENTARIOS-->
-            <p>COMENTARIOS QUE SE VAN A AGREGAR</p>
+            <p id="caja-comentarios"></p>
 
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Comente la foto.." aria-label="Search">
+            <form class="d-flex" role="search" onsubmit="agregarComentario(event)">
+                <input class="form-control me-2" id="comentario" type="search" placeholder="Comente la foto.." aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Comentar</button>
             </form><br>
         </div>
         <div class="col-md-1"></div>
         <!--SOBRE MI-->
         <div class="col-md-4">
-            <div class="sobreMi">
+            <div class="sobreMi" id="">
                 <h4>Sobre mi</h4>
                 <p>El TP debe acercarse bastante al diseño, aunque puede diferir en ciertas partes.
                     No es obligatorio hacerlo igual en un 100%, aunque sí es importante que mantenga las
