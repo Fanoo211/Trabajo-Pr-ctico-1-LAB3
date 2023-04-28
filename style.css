@@ -1,3 +1,6 @@
+body{
+background-color: ghostwhite;
+}
 .imgJaneDoe{
     width: 250px;
     border-radius: 50%;
@@ -5,7 +8,9 @@
 .bordePerfil{
     padding: 25px;
     border: 1px solid black;
-    left: 5;    
+    left: 5; 
+    background-color: antiquewhite;
+   
 }
 .buttonseguir{
     margin-top: 225px;
@@ -20,4 +25,18 @@
 .nombresEnColor{
     color: blue;
     font-size: 20px;
+}
+.sobreMi{
+    border: 1px solid black; 
+    text-align: center; 
+    border-radius: 3%;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+.seccionDeFotoYcomentarios{
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 10px;
+    background-color: antiquewhite;
+
 }
