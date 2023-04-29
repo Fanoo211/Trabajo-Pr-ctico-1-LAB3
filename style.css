@@ -52,11 +52,31 @@ background-color: ghostwhite;
     justify-content: space-between;
 }
 
+/*Boton de seguir*/
 .buttonseguir {
     margin-top: 20px;
     align-self: flex-end;
     width: 90%;
 }
 
-
-
+/*Boton me gusta*/
+#contenedor-me-gusta {   
+    display: flex;   
+    justify-content: space-between;   
+    align-items: center; 
+}  
+#boton-me-gusta {   
+    padding: 10px;   
+    background-color: #4CAF50;   
+    color: white;   border: none;   
+    cursor: pointer;   
+    margin-right: 10px; 
+}  
+#boton-me-gusta.apretado {   
+    background-color: #f44336; 
+}  
+#contador-me-gusta {   
+    font-size: 16px;   
+    font-weight: bold;   
+    margin-left: 10px; 
+}

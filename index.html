@@ -59,9 +59,13 @@
         <div class="seccionDeFotoYcomentarios col-md-5">
             <p style="opacity: 50%;">Publicado hace 1 semana</p>
             <img src="paisaje.jpeg" alt="paisaje" class="imgPaisaje">
-            <button class="btnMegusta btn btn-outline-success" type="submit">Me gusta</button>
-            <!--SECCION DE COMENTARIOS-->
             <br><br>
+            <div id="contenedor-me-gusta">
+                <button id="boton-me-gusta">Me gusta</button>
+                <p id="contador-me-gusta">200</p>
+              </div>
+            <!--SECCION DE COMENTARIOS-->
+            <br>
             <h6>Comentarios</h6>
             <p><b id="nombresEnColor">Juan Perez</b> wow esa foto de tokio es impresionante!</p>
             <p><b id="nombresEnColor">Kathleen J Rennie</b> esta foto de tokio es espectacular!</p>
@@ -71,7 +75,7 @@
             <p id="caja-comentarios"></p>
 
             <form class="d-flex" role="search" onsubmit="agregarComentario(event)">
-                <input class="form-control me-2" id="comentario" type="search" placeholder="Comente la foto.." aria-label="Search">
+                <input class="form-control me-2" id="comentario" type="search" placeholder="Comente la foto.." aria-label="Search" autocomplete="off">
                 <button class="btn btn-outline-success" type="submit">Comentar</button>
             </form><br>
         </div>
@@ -104,6 +108,7 @@
     </script>
     <script src="agregadoComentarios.js" defer></script>
     <script src="buttonSeguir.js" defer></script>
+    <script src="botonMeGusta.js" defer></script>
 </body>
 
 </html>
