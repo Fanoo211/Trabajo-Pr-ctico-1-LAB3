@@ -6,6 +6,7 @@ const contadorMeGusta = document.getElementById("contador-me-gusta");
 let meGustaApretado = false;
 let contadorMeGustaValor = 200;
 
+
 // Agregar un evento clic al botón
 botonMeGusta.addEventListener("click", function() {
   if (meGustaApretado) {
@@ -26,5 +27,5 @@ botonMeGusta.addEventListener("click", function() {
   }
 
   // Actualizar el texto del contador con el valor actual
-  contadorMeGusta.innerText = contadorMeGustaValor;
+  contadorMeGusta.innerText = contadorMeGustaValor + " Likes";
 });
