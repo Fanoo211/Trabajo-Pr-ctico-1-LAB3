@@ -71,6 +71,7 @@ background-color: ghostwhite;
     color: white;   border: none;   
     cursor: pointer;   
     margin-right: 10px; 
+    border-radius: 15%;
 }  
 #boton-me-gusta.apretado {   
     background-color: #f44336; 
@@ -79,4 +80,8 @@ background-color: ghostwhite;
     font-size: 16px;   
     font-weight: bold;   
     margin-left: 10px; 
+}
+.btn.apretado{
+    background-color:green;
+    text-decoration: black;
 }
