@@ -15,8 +15,8 @@ function agregarComentario(evento) {
         nuevoComentario.innerHTML = `<span style="color: red; font-size: 20px">${comentario}</span>`;
     }
     else{
-        nuevoComentario.innerHTML = `<span style="color: blue; font-size: 20px"><b>${nombre}</b></span> ${comentario}`; // establecer el contenido del comentario con el nombre
-
+        nuevoComentario.innerHTML = `<span style="color: blue; font-size: 20px"><b>${nombre}</b></span> ${comentario} <button class="eliminar-comentario">Eliminar</button>`; // establecer el contenido del comentario con el nombre y agregar el botón de eliminar
+        nuevoComentario.querySelector(".eliminar-comentario").addEventListener("click", () => nuevoComentario.remove()); // agregar un evento de click al botón que elimine el comentario correspondiente
     }  
     cajaComentarios.appendChild(nuevoComentario); // agregar el nuevo comentario a la caja de comentarios
   

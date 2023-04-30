@@ -85,3 +85,10 @@ background-color: ghostwhite;
     background-color:green;
     text-decoration: black;
 }
+
+.eliminar-comentario{
+    background-color: rgb(223, 216, 216);
+    color: red;
+    border: rgb(223, 216, 216);
+    border-radius: 15%;
+}
