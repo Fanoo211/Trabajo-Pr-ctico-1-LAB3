@@ -1,6 +1,9 @@
 body{
-background-color: ghostwhite;
-}
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
 .imgJaneDoe{
     width: 100%;
     border-radius: 50%;
@@ -10,8 +13,8 @@ background-color: ghostwhite;
     padding: 25px;
     border: 1px solid black;
     left: 5; 
-    background-color: antiquewhite;
-   
+    background-color: whitesmoke;
+ 
 }
 .imgPaisaje{
     width: 100%;
@@ -29,14 +32,19 @@ background-color: ghostwhite;
     text-align: center; 
     border-radius: 3%;
     padding: 25px;
-    background-color: antiquewhite;
+
     
+    background-color: whitesmoke;
+
 }
 .seccionDeFotoYcomentarios{
     border: 1px solid black;
     border-radius: 3%;
     padding: 10px;
-    background-color: antiquewhite;
+
+    background-color: whitesmoke;
+
+    
 
 }
 .bordeFotoPerfil{
