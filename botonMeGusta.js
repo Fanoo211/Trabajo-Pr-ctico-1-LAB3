@@ -6,7 +6,6 @@ const contadorMeGusta = document.getElementById("contador-me-gusta");
 let meGustaApretado = false;
 let contadorMeGustaValor = 200;
 
-
 // Agregar un evento clic al botón
 botonMeGusta.addEventListener("click", function() {
   if (meGustaApretado) {

@@ -12,10 +12,7 @@ background-color: #E5E5E5;
     left: 5; 
     background: #D3CCE3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
-     
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 .imgPaisaje{
     width: 100%;
@@ -33,26 +30,17 @@ background-color: #E5E5E5;
     text-align: center; 
     border-radius: 3%;
     padding: 25px;
-
-    
     background: #D3CCE3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
 }
 .seccionDeFotoYcomentarios{
     border: 1px solid black;
     border-radius: 3%;
     padding: 10px;
-
     background: #D3CCE3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-    
-
 }
 .bordeFotoPerfil{
     text-align: center;
@@ -100,7 +88,6 @@ background-color: #E5E5E5;
     background-color:green;
     text-decoration: black;
 }
-
 .eliminar-comentario{
     background-color: rgb(223, 216, 216);
     color: red;
