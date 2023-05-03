@@ -1,25 +1,25 @@
 function agregarComentario(evento) {
-    evento.preventDefault(); // prevenir el envío del formulario
+    evento.preventDefault();
   
-    let nombreInput = document.getElementById("nombre-usuario"); // seleccionar el campo de entrada del nombre
-    let nombre = nombreInput.value; // obtener el valor del nombre
+    let nombreInput = document.getElementById("nombre-usuario"); 
+    let nombre = nombreInput.value; 
   
-    let comentarioInput = document.getElementById("comentario"); // seleccionar el campo de entrada del comentario
-    let comentario = comentarioInput.value; // obtener el valor del comentario
+    let comentarioInput = document.getElementById("comentario"); 
+    let comentario = comentarioInput.value; 
   
-    let cajaComentarios = document.getElementById("caja-comentarios"); // seleccionar la caja de comentarios
-    let nuevoComentario = document.createElement("p"); // crear un nuevo elemento <p>
+    let cajaComentarios = document.getElementById("caja-comentarios"); 
+    let nuevoComentario = document.createElement("p"); 
 
     if(nombre == "" || comentario == ""){
         comentario = "Error, falto ingresar nombre o comentario";
         nuevoComentario.innerHTML = `<span style="color: red; font-size: 20px">${comentario}</span>`;
     }
     else{
-        nuevoComentario.innerHTML = `<span style="color: blue; font-size: 20px"><b>${nombre}</b></span> ${comentario} <button class="eliminar-comentario">Eliminar</button>`; // establecer el contenido del comentario con el nombre y agregar el botón de eliminar
-        nuevoComentario.querySelector(".eliminar-comentario").addEventListener("click", () => nuevoComentario.remove()); // agregar un evento de click al botón que elimine el comentario correspondiente
+        nuevoComentario.innerHTML = `<span style="color: blue; font-size: 20px"><b>${nombre}</b></span> ${comentario} <button class="eliminar-comentario">Eliminar</button>`;
+        nuevoComentario.querySelector(".eliminar-comentario").addEventListener("click", () => nuevoComentario.remove()); 
     }  
-    cajaComentarios.appendChild(nuevoComentario); // agregar el nuevo comentario a la caja de comentarios
+    cajaComentarios.appendChild(nuevoComentario);
   
-    nombreInput.value = ""; // borrar el contenido del campo de entrada del nombre
-    comentarioInput.value = ""; // borrar el contenido del campo de entrada del comentario
+    nombreInput.value = "";
+    comentarioInput.value = "";
 }
